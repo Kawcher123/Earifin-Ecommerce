@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "651395209464",
+    "project_id": "earifin-1619451695788",
+    "storage_bucket": "earifin-1619451695788.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651395209464:android:2eddbb8232ad7f37e9c30d",
+        "android_client_info": {
+          "package_name": "com.earifin.ecommercecms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651395209464-10gfppf0plkg8eeae4nkph0up8280osf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3oFWartSSuJVUx9FmFGDUn8QVFBqqRe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651395209464-10gfppf0plkg8eeae4nkph0up8280osf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

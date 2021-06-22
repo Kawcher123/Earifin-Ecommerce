@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>651395209464-l36m4qtrrl1rc87vcnegvfmiktmtqa2k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.651395209464-l36m4qtrrl1rc87vcnegvfmiktmtqa2k</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>651395209464-043dcgn1r72iga6g3f7aqpvdsfaf2evu.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCzNLKyRNx41Gis0kDE8MnwZ0nDLpfXKfs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>651395209464</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.earifin.ecommercecms</string>
+	<key>PROJECT_ID</key>
+	<string>earifin-1619451695788</string>
+	<key>STORAGE_BUCKET</key>
+	<string>earifin-1619451695788.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:651395209464:ios:15e77b3d878b7750e9c30d</string>
+</dict>
+</plist>
