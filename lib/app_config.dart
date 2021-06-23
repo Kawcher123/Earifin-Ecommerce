@@ -7,7 +7,7 @@ class AppConfig {
       "@ Earifin " + this_year; //this shows in the splash screen
   static String app_name = "Earifin"; //this shows in the splash screen
   static String purchase_code =
-      ""; //enter your purchase code for the app from codecanyon
+      "20d56596-8c97-48ee-b194-a5f6634b1ee5"; //enter your purchase code for the app from codecanyon
 
   //configure this
   static const bool HTTPS = false;

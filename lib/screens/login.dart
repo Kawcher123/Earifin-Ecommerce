@@ -71,7 +71,7 @@ class _LoginState extends State<Login> {
 
     var loginResponse = await AuthRepository()
         .getLoginResponse(_login_by == 'email' ? email : _phone, password);
-
+    print("Error:${loginResponse.message}");
     if (loginResponse.result == false) {
       ToastComponent.showDialog(loginResponse.message, context,
           gravity: Toast.CENTER, duration: Toast.LENGTH_LONG);

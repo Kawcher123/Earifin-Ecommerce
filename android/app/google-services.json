@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "651395209464-if14gdd7al8f86l4pf5bt55q3irknk35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.earifin.ecommercecms",
+            "certificate_hash": "96164dba951cc200f5b9240b57a586e1aa0d4773"
+          }
+        },
+        {
           "client_id": "651395209464-10gfppf0plkg8eeae4nkph0up8280osf.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,13 @@
             {
               "client_id": "651395209464-10gfppf0plkg8eeae4nkph0up8280osf.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "651395209464-l36m4qtrrl1rc87vcnegvfmiktmtqa2k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.earifin.ecommercecms"
+              }
             }
           ]
         }
