@@ -502,7 +502,7 @@ class _ProductDetailsState extends State<ProductDetails> {
         .getCreateConversationResponse(
             product_id: widget.id, title: title, message: message);
 
-    if(conversationCreateResponse.result == false){
+    if (conversationCreateResponse.result == false) {
       ToastComponent.showDialog("Could not create conversation", context,
           gravity: Toast.CENTER, duration: Toast.LENGTH_LONG);
       return;
@@ -511,9 +511,7 @@ class _ProductDetailsState extends State<ProductDetails> {
     Navigator.pop(context);
     sellerChatTitleController.clear();
     sellerChatMessageController.clear();
-    setState(() {
-
-    });
+    setState(() {});
 
     Navigator.push(context, MaterialPageRoute(builder: (context) {
       return Chat(
@@ -521,12 +519,11 @@ class _ProductDetailsState extends State<ProductDetails> {
         messenger_name: conversationCreateResponse.shop_name,
         messenger_title: conversationCreateResponse.title,
         messenger_image: conversationCreateResponse.shop_logo,
-      );;
+      );
+      ;
     })).then((value) {
       onPopped(value);
     });
-
-
   }
 
   @override
@@ -849,8 +846,8 @@ class _ProductDetailsState extends State<ProductDetails> {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
                         return CommonWebviewScreen(
-                          url:
-                              "${AppConfig.RAW_BASE_URL}/mobile-page/sellerpolicy",
+                          url: "https://earifin.com/sellerpolicy",
+                          // url: "${AppConfig.RAW_BASE_URL}/sellerpolicy",
                           page_name: "Seller Policy",
                         );
                       }));
@@ -892,8 +889,8 @@ class _ProductDetailsState extends State<ProductDetails> {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
                         return CommonWebviewScreen(
-                          url:
-                              "${AppConfig.RAW_BASE_URL}/mobile-page/returnpolicy",
+                          // url: "${AppConfig.RAW_BASE_URL}/returnpolicy",
+                          url: "https://earifin.com/returnpolicy",
                           page_name: "Return Policy",
                         );
                       }));
@@ -935,8 +932,8 @@ class _ProductDetailsState extends State<ProductDetails> {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
                         return CommonWebviewScreen(
-                          url:
-                              "${AppConfig.RAW_BASE_URL}/mobile-page/supportpolicy",
+                          // url: "${AppConfig.RAW_BASE_URL}/supportpolicy",
+                          url: "https://earifin.com/supportpolicy",
                           page_name: "Support Policy",
                         );
                       }));
@@ -1528,17 +1525,21 @@ class _ProductDetailsState extends State<ProductDetails> {
       ),
       elevation: 0.0,
       titleSpacing: 0,
-      actions: <Widget>[
-        Padding(
-          padding: const EdgeInsets.symmetric(vertical: 0.0, horizontal: 0.0),
-          child: IconButton(
-            icon: Icon(Icons.share_outlined, color: MyTheme.dark_grey),
-            onPressed: () {},
-          ),
-        ),
-      ],
+      // actions: <Widget>[
+      //   Padding(
+      //     padding: const EdgeInsets.symmetric(vertical: 0.0, horizontal: 0.0),
+      //     child: IconButton(
+      //       icon: Icon(Icons.share_outlined, color: MyTheme.dark_grey),
+      //       onPressed: () {
+      //
+      //       },
+      //     ),
+      //   ),
+      // ],
     );
   }
+
+
 
   buildBottomAppBar(BuildContext context, _addedToCartSnackbar) {
     return Builder(builder: (BuildContext context) {

@@ -56,7 +56,10 @@ class _ProfileEditState extends State<ProfileEdit> {
           gravity: Toast.CENTER, duration: Toast.LENGTH_LONG);
     } else if (status.isGranted) {
       //file = await ImagePicker.pickImage(source: ImageSource.camera);
-      _file = await ImagePicker.platform.pickImage(source: ImageSource.gallery);
+      final pickedFile =
+          await ImagePicker.platform.pickImage(source: ImageSource.gallery);
+
+      _file = File(pickedFile.path);
 
       if (_file == null) {
         ToastComponent.showDialog("No file is chosen", context,

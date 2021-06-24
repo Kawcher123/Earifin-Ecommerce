@@ -57,10 +57,11 @@ class _MainState extends State<Main> {
           child: Container(
               margin: EdgeInsets.all(0.0),
               child: IconButton(
-                  icon: new Image.asset('assets/square_logo.png'),
+                  icon: new Image.asset('assets/splash_screen_logo.png'),
                   tooltip: 'Action',
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) {
                       return Filter(
                         selected_filter: "sellers",
                       );
