@@ -431,71 +431,72 @@ class _LoginState extends State<Login> {
                           ),
                         ),
                       ),
-                      Visibility(
-                        visible: SocialConfig.allow_google_login ||
-                            SocialConfig.allow_facebook_login,
-                        child: Padding(
-                          padding: const EdgeInsets.only(top: 20.0),
-                          child: Center(
-                              child: Text(
-                            "Login with",
-                            style: TextStyle(
-                                color: MyTheme.medium_grey, fontSize: 14),
-                          )),
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.only(top: 30.0),
-                        child: Center(
-                          child: Container(
-                            width: 120,
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Visibility(
-                                  visible: SocialConfig.allow_google_login,
-                                  child: InkWell(
-                                    onTap: () {
-                                      onPressedGoogleLogin();
-                                    },
-                                    child: Container(
-                                      width: 28,
-                                      child:
-                                          Image.asset("assets/google_logo.png"),
-                                    ),
-                                  ),
-                                ),
-                                Visibility(
-                                  visible: SocialConfig.allow_facebook_login,
-                                  child: InkWell(
-                                    onTap: () {
-                                      onPressedFacebookLogin();
-                                    },
-                                    child: Container(
-                                      width: 28,
-                                      child: Image.asset(
-                                          "assets/facebook_logo.png"),
-                                    ),
-                                  ),
-                                ),
-                                Visibility(
-                                  visible: false,
-                                  child: InkWell(
-                                    onTap: () {
-                                      // onPressedTwitterLogin();
-                                    },
-                                    child: Container(
-                                      width: 28,
-                                      child: Image.asset(
-                                          "assets/twitter_logo.png"),
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ),
+
+                      // Visibility(
+                      //   visible: SocialConfig.allow_google_login ||
+                      //       SocialConfig.allow_facebook_login,
+                      //   child: Padding(
+                      //     padding: const EdgeInsets.only(top: 20.0),
+                      //     child: Center(
+                      //         child: Text(
+                      //       "Login with",
+                      //       style: TextStyle(
+                      //           color: MyTheme.medium_grey, fontSize: 14),
+                      //     )),
+                      //   ),
+                      // ),
+                      // Padding(
+                      //   padding: const EdgeInsets.only(top: 30.0),
+                      //   child: Center(
+                      //     child: Container(
+                      //       width: 120,
+                      //       child: Row(
+                      //         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      //         children: [
+                      //           Visibility(
+                      //             visible: SocialConfig.allow_google_login,
+                      //             child: InkWell(
+                      //               onTap: () {
+                      //                 onPressedGoogleLogin();
+                      //               },
+                      //               child: Container(
+                      //                 width: 28,
+                      //                 child:
+                      //                     Image.asset("assets/google_logo.png"),
+                      //               ),
+                      //             ),
+                      //           ),
+                      //           Visibility(
+                      //             visible: SocialConfig.allow_facebook_login,
+                      //             child: InkWell(
+                      //               onTap: () {
+                      //                 onPressedFacebookLogin();
+                      //               },
+                      //               child: Container(
+                      //                 width: 28,
+                      //                 child: Image.asset(
+                      //                     "assets/facebook_logo.png"),
+                      //               ),
+                      //             ),
+                      //           ),
+                      //           Visibility(
+                      //             visible: false,
+                      //             child: InkWell(
+                      //               onTap: () {
+                      //                 // onPressedTwitterLogin();
+                      //               },
+                      //               child: Container(
+                      //                 width: 28,
+                      //                 child: Image.asset(
+                      //                     "assets/twitter_logo.png"),
+                      //               ),
+                      //             ),
+                      //           ),
+                      //         ],
+                      //       ),
+                      //     ),
+                      //   ),
+                      // ),
                     ],
                   ),
                 )

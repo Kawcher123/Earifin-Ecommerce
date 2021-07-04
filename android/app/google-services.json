@@ -14,15 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "651395209464-if14gdd7al8f86l4pf5bt55q3irknk35.apps.googleusercontent.com",
+          "client_id": "651395209464-fr893qpbv4739gqvahetk4mulu4qng31.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.earifin.ecommercecms",
-            "certificate_hash": "96164dba951cc200f5b9240b57a586e1aa0d4773"
+            "certificate_hash": "af84fd7d0d5547db13e5ad5aae4c44af6b19f0df"
           }
         },
         {
-          "client_id": "651395209464-10gfppf0plkg8eeae4nkph0up8280osf.apps.googleusercontent.com",
+          "client_id": "651395209464-3iq6c1fj1sfnm6nhqfi26sqs1b8130of.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
