@@ -431,7 +431,6 @@ class _LoginState extends State<Login> {
                           ),
                         ),
                       ),
-
                       // Visibility(
                       //   visible: SocialConfig.allow_google_login ||
                       //       SocialConfig.allow_facebook_login,
